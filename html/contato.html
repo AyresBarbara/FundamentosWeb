@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <ul id="menu">
+
+        <li id="p2">
+            <a href="https://github.com/AyresBarbara" target="_blank">Github</a>
+        </li>
+
+        <li id="p2">
+            <a href="https://www.linkedin.com/in/b%C3%A1rbara-ayres-31903118b/" target="_blank">Linkedin</a>
+        </li>  <!--Linha--> 
+
+        <li id="p2">
+            <a href="contato.html" target="_blank">Contato</a>
+        </li>  <!--Linha-->
+        
+    </ul>
+
+    <h1 id="p3">Entre em contato comigo:</h1>
+
+<div class="wrap mb-50">
+<div>
+    <h2 id="p3"> Me mande uma mensagem: </h2>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" onkeyup="validarNome()">
+            <div id='txtNome'></div>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" onkeyup="validarEmail()">
+            <div id='txtEmail'></div>
+            <br>
+            <label for="assunto">Assunto:</label> <br>
+            <textarea name="assunto" id="assunto" cols="60" rows="5" onkeyup="validarAssunto()"></textarea>
+            <div id='txtAssunto'></div>
+            <br>
+            <br>
+            <button onclick="enviar()">Enviar</button>
+        </form>
+</div>
+    
+<div class="ml-50">
+
+    <p id="p3">Tabajara, Olinda</p>
+    <p id="p3">Brasil - BR</p>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31609.803107178166!2d-34.864615!3d-7.975642000000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab17dbdc883837%3A0xdd0e5b453a38cf29!2sTabajara%2C%20Olinda%20-%20PE!5e0!3m2!1spt-BR!2sbr!4v1661439898771!5m2!1spt-BR!2sbr" 
+    width="300" 
+    height="250" 
+    style="border:0;" 
+    allowfullscreen="" 
+    loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade"
+    onmousemove="mapaZoom()"
+    onmouseout="mapaNormal()"
+    id="mapa">
+    </iframe>
+
+</div>
+</div>
+
+<footer>
+
+    <div class="wrap">
+   
+       <a href="https://github.com/AyresBarbara" target="_blank">
+       <img class="tm-social" src="assets/img/github.png" alt="Logo pro Contato">
+       </a>
+   
+       <a href="https://www.linkedin.com/in/b%C3%A1rbara-ayres-31903118b/" target="_blank">
+       <img class="tm-social" src="assets/img/linkedin.png" alt="Logo pro Github">
+       </a>
+   
+       <a href="contato.html" target="_blank">
+       <img class="tm-social" src="assets/img/gmail.png" alt="Logo pro Github">
+       </a>
+   
+    </div>
+   
+    <p class="center">Todos os direitos reservados para Bárbara Ayres &copy </p>
+   
+   </footer>
+
+    <script src="assets/js/script.js"></script>
+    
+</body>
+</html>

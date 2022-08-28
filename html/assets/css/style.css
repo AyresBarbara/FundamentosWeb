@@ -1,0 +1,81 @@
+/* ESTILO DO INDEX.HTML*/
+
+.center{
+   
+    text-align: center;
+    color:rgb(145, 0, 202);
+    font-family: 'Georgia';
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*FONTE DAS LETRAS*/
+
+#p1{
+    font-size: 20px;
+    color: darkmagenta;
+    font-family:'Georgia';
+    text-align:center;
+}
+#p2{
+     color:rgb(145, 0, 202);
+    font-family: 'Georgia';
+    text-align:center;
+}
+#p3{
+    text-align:center;
+    color:rgb(145, 0, 202);
+    font-family: 'Georgia';
+    font-size: 18px;
+}
+body{
+    background-color:rgb(253, 205, 229)}
+
+/*CÓDIGO DA MINHA FOTO*/
+.br-50{ 
+    border-radius: 50%;
+}
+.wh-200{
+    width: 200px;
+    height: 300px;
+}
+
+/*CONFIGURAÇÃO DE LISTA*/
+
+#menu li{
+    display: inline;
+    padding: 20px;
+
+}
+#menu li a {
+    text-decoration: none;
+    color: blue;
+}
+#menu li a:hover {
+    color: black;
+}
+/*RODAPÉ DA PÁGINA*/
+.tm-social{
+    width: 30px;
+    height: 30px;
+    padding: 30px;
+}
+
+/* PÁGINA DO CONTATO.HTML*/
+
+.wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.ml-50{
+    margin-left: 50px;
+}
+.mb-50{
+    margin-bottom: 50px;
+ }
